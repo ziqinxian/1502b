@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<style>
+    div{
+        margin-top: 10px;
+    }
+    .square{
+        width: 100px;
+        height: 100px;
+        background: #CCCCCC;
+        border-radius: 5px;
+        box-shadow: 3px 3px 10px #000;
+        border-image: url("images/img.png") 5 5 stretch;
+    }
+
+    .spiny{
+        width: 150px;
+        height: 100px;
+        background: #8AC007;
+        border-radius: 15px 15px 15px 15px; /*左上 右上 右下 左下*/
+    }
+    .spiny1{
+        width: 150px;
+        height: 100px;
+        background: #8AC007;
+        border-radius: 15px 25px 15px; /*左上 右上左下 右下*/
+    }
+    .spiny2{
+        width: 150px;
+        height: 100px;
+        background: #8AC007;
+        border-radius: 15px 25px; /*左上右下  右上左下  */
+    }
+    .spiny3{
+        width: 150px;
+        height: 100px;
+        background: #8AC007;
+        border-radius: 15px; /*四个圆角值相同*/
+    }
+    
+</style>
+<body>
+    <div class="square"></div>
+    <div class="spiny"></div>
+    <div class="spiny1"></div>
+    <div class="spiny2"></div>
+    <div class="spiny3"></div>
+
+    
+</body>
+</html>
